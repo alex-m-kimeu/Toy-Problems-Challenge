@@ -18,17 +18,35 @@ Write a function that prompts the user to input student marks. The input should 
    ```bash
    npm install prompt-sync
 
+2. **Run the Program:**
+   After installing the dependency, you can run the program using your preferred JavaScript environment. For example, in Node.js:
+   
+   ```bash
+   node studentGradeGenerator.js
+
 ## Challenge 2: Speed Detector
 
 Write a program that takes the speed of a car as input (e.g., 80). If the speed is less than 70, it should print "Ok". Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
 > For example, if the speed is 80, it should print: "Points: 2". If the driver gets more than 12 points, the function should print: "License suspended".
 
+### How to Use
+1. **Run the Program:**
+   
+   ```bash
+   node speedDetector.js
+
 ## Challenge 3: Net Salary Calculator
 
 Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary.
 
 **NB:** Use KRA, NHIF, and NSSF values provided in the [KRA Tax Rates](https://www.aren.co.ke/payroll/taxrates.htm) and [KRA Paye Calculation](www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye) links.
+
+### How to Use
+1. **Run the Program:**
+   
+   ```bash
+   node netSalaryCalculator.js
 
 ## Extra Practice Questions
 
@@ -38,6 +56,12 @@ Write a function that takes an array of numbers as input. It should output an ar
 
 **Sample input:** [5,6,1,3,4,2]
 **Expected output:** [1,2,3,4,5,6]
+
+### How to Use
+1. **Run the Program:**
+   
+   ```bash
+   node bubbleSort.js
 
 ### Loops
 
@@ -55,3 +79,14 @@ steps(3)
 #
 ##
 ###
+```
+
+### How to Use
+1. **Run the Program:**
+   
+   ```bash
+   node staircase.js
+
+**Author:** Alex Kimeu
+
+**License:** [MIT License](LICENSE)
